@@ -109,7 +109,7 @@ ion-icon{
     margin: auto 2px;
 }
 
-.dpm-button:hover, .active-btn{
+.dpm-button:hover{
     color: var(--main-container-background);
     background-color: var(--main-color);
     cursor: pointer;
