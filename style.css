@@ -109,9 +109,10 @@ ion-icon{
     margin: auto 2px;
 }
 
-.dpm-button:hover{
+.dpm-button:hover, .active-btn{
     color: var(--main-container-background);
     background-color: var(--main-color);
+    cursor: pointer;
 }
 
 #download-container > span{
@@ -121,3 +122,24 @@ ion-icon{
     font-weight: 700;
 }
 
+#subscribe-btn {
+    color: var(--main-container-background);
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    align-self: center;
+    margin-top: 2em;
+    font-size: .75em;
+    width: 20em;
+    height: 4.5em;
+    border-radius: 7px;
+}
+
+
+#subscribe-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#subscribe-btn:active {
+    transform: scale(.95);
+}
